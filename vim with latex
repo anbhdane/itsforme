@@ -15,3 +15,5 @@ your.tex = is your latex file.
 
 you should open pdf by mupdf. 
 Then we should save :w our .tex compound by :w.
+
+https://geoidin.wordpress.com/2017/07/05/minimal-latex-environment-for-linux-vim-entr-mupdf/
