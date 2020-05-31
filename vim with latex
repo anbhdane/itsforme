@@ -1,0 +1,17 @@
+Ok this file for the how to get the vim with latex. Here we should know that vim is much more powerful. Now we should know that 
+vim is more powerful tool so you should be comfertable with vim. There are many ide that exists in nature but with vim we can 
+do our things very comfortably.
+
+We should install first 
+1) entr (sudo apt-get install entr)
+2) pdflatex (sudo apt-get install pdflatex)
+3) mupdf (sudo apt-get install mupdf)
+
+Now in terminal we should write commnad given, 
+
+$ ls your.tex | entr /bin/sh -c “pdflatex your.tex && pkill -HUP mupdf”
+
+your.tex = is your latex file.
+
+you should open pdf by mupdf. 
+Then we should save :w our .tex compound by :w.
